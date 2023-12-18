@@ -1,0 +1,112 @@
+.b_box{z-index: 100;
+position: absolute;
+background: #2c2a29;
+display: flex;
+justify-content: center;
+gap:120px;
+align-items: baseline;
+width: 100%;
+height: 230px;
+top: 101%;
+left: 0;
+}
+
+.b_box ul li a{
+    padding:2px;
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    gap: 10 px;
+}
+
+.b_box ul li:first-child{
+    margin-bottom:5%;
+    padding-top: 12%;
+}
+
+.b_box ul li a:hover{
+    background: none;
+}
+
+.b_box ul li a{
+ font-size: 12px;
+ color:#999;
+}
+
+.b_box ul li a:hover{
+   color:#999;
+}
+
+strong{
+    font-weight: bold;
+    color:#fff;
+    font-size: 14px;
+}
+
+.menu{
+    height: 280px;
+}
+
+
+.store{
+    height: 100px;
+}
+
+.left_clean{
+justify-content: left;
+padding-left: 17%;
+}
+
+.whats_new{
+    width: 60%;
+    flex-wrap: wrap;
+    align-content:first baseline;
+    height: 300px;
+    padding-right: 100%;
+    gap: 0;
+}
+
+.whats_new ul{
+    width: 10%;
+   margin: 0 40px;
+}
+
+.whats_new ul:first-child{
+    margin-bottom: 5%;
+}
+
+
+.d_in{
+margin-left: 3%;
+height: 30px;
+line-height: 30px;
+display:block;
+text-indent: 5px;
+
+}
+
+.w_50{
+    width: 55%;
+    margin-left: 30%;
+    transition:all 0.8s;
+}
+
+/*히든 박스 이미지 로테이트 섹션*/
+
+.swiper-wrapper{width: 300%;}
+
+.swiper-wrapper .in_detail{
+background: none;
+border: 2px #000 solid;
+border-radius: 0;
+display:block;
+width: 5%;
+text-align: center;
+color:#000;
+}
+
+.hidden_box{
+    position: relative;
+}
